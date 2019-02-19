@@ -21,11 +21,11 @@ provisioner:
   options:
     become: true
   playbooks:
-    converge: ../../{{cookiecutter.playbook_name}}.yml
+    converge: ../../tasks/main.yml
   lint:
     name: ansible-lint
 scenario:
-  name: default
+  name: libvirt
 verifier:
   name: testinfra
   directory: ../tests
