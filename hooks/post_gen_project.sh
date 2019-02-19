@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln -s molecule/default/requirements.yml
+#ln -s molecule/default/requirements.yml
 git init &> /dev/null
 git add . &> /dev/null
 pre-commit install &> /dev/null
