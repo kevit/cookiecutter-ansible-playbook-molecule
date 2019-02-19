@@ -4,11 +4,11 @@ dependency:
 driver:
   name: vagrant
   provider:
-    name: virtualbox
+    name: libvirt
 lint:
   name: yamllint
 platforms:
-  - name: centos7.5-vagrant
+  - name: centos7.5-libvirt
     box: centos/7
     # centos7.5 image
     # https://app.vagrantup.com/centos/boxes/7
