@@ -2,7 +2,7 @@
     "playbook_name": "playbook_name",
     "author": "your name",
     "description": "playbook description",
-    "license": ["GPLv3", "GPLv2", "BSD", "MIT", "Apache", "CC-BY"]
+    "license": ["GPLv3", "GPLv2", "BSD", "MIT", "Apache", "CC-BY"],
     "_copy_without_render": [
         "tasks",
         "vars"
